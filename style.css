@@ -14,16 +14,22 @@ body {
 }
 
 header {
-  /* your code */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 main {
-  /* your code */
+  display: flex;
+  flex-direction: column;  
 }
 main nav {
+
   border: .1rem solid purple;
   padding: 1rem;
-  /* your code */
+  display: inline-block;
+  ;
 }
 main a {
   width: 5rem;
@@ -33,8 +39,10 @@ main a {
 }
 
 .dog-list-container {
-  /* your code */
-}
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
 
 .fluid-text {
   font-size: 2rem;
